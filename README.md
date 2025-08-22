@@ -54,7 +54,7 @@
 # локально собрать
 docker build -t kotleha/recommender:latest .
 
-# или стянуть готовый образ (если доступен в Docker Hub)
+# или стянуть готовый образ
 # docker pull kotleha/recommender:latest
 
 # запустить
