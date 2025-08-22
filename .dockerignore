@@ -1,0 +1,13 @@
+*.ipynb
+*.csv
+*.parquet
+*.feather
+__pycache__/
+*.pyc
+.cache/
+data/
+events.csv
+item_properties_part1.csv
+item_properties_part2.csv
+category_tree.csv
+.git/

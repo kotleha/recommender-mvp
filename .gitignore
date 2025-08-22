@@ -1,0 +1,64 @@
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# virtual envs
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# data & artifacts (крупные)
+data/
+datasets/
+raw_data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+*.zip
+*.gz
+*.bz2
+*.xz
+
+# модели (по умолчанию игнорируем pkl)
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+
+# оставляем наш экспорт модели
+!xgb_model.json
+
+# logs
+logs/
+*.log
+
+# build
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# pytest / mypy / cache
+.pytest_cache/
+.mypy_cache/
+
+# env-файлы с секретами (если появятся)
+.env
+.env.*
